@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap');
+
+body {
+    min-height: 100vh;
+    background: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Spartan, sans-serif;
+    font-size: 12px;
+}
+
+.player-container {
+    height: 500px;
+    width: 400px;
+    background: #f9f9f9;
+}
+
