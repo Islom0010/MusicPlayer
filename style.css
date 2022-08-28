@@ -67,8 +67,7 @@ h3 {
   background: #242323;
   border-radius: 5px;
   height: 100%;
-  /* Change this to show progress */
-  width: 66%;
+  width: 0%;
   transition: width 0.1s linear;
 }
 
@@ -111,7 +110,7 @@ h3 {
     position: relative;
     top: 3px;
     transform: translateY(-2px);
-    transition: ease-out 0.2s;
+    transition: ease-out 0.2 s;
 }
 
 /* Media Query: iPhone(Vertical) */
